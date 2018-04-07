@@ -1,0 +1,42 @@
+########################################### CLANTYLOGOUT BY PAULEKOFFICIAL ##############################################
+
+#Scheduler type:
+#Types: single / global
+#Type global is better for optymalization
+scheduler: global
+
+#Combat time (in sec)
+time: 20
+
+#Czy osoba na creative moze bic
+creative_damage: true
+
+#Wiadomosc wyswietlana gdy opcja wyzej jest wlaczona
+creative_damage: '&a» Bicie na &cCREATIVE &ajest zabronione!'
+
+#Wiadomosc wyswietlana gdy gracz zginie podczas walki lub skonczy sie czas walki
+no_longer_in_combat: '&a» Nie jestes juz podczas walki :D'
+
+#Wiadomosc wyswietlana nad paskiem itemow informujaca o walce
+combat_message: '&eJestes podczas walki! &cNie wylogowuj sie przez {time} sekund!'
+
+#Wiadomosc wyswietlana nad paskiem itemow informujaca o zakonczeniu walki
+combat_nolonger_message: '&aNie jestes juz podczas walki!'
+
+#Czy maja byc wyswietlane globanle wiadomosci odnosnie wylogowania podczas walki
+bc_combat_logout: true
+
+#Wiadomosc wyswietlana globalnie gdy gracz sie wyloguje podczas walki
+combat_logout: '&e» {nick} wylogowal sie podczas walki! Z zyciem {health}'
+
+#Wiadomosc wyswietlana graczowi gdy probuje niszczyc cos podczas walki
+cant_break: '&a» Nie mozesz niszczyc podczas walki!'
+
+#Wiadomosc wyswietnana graczowi gdy probuje cos postawic podczas walki
+cant_place: '&a» Nie mozesz stawiac blokow podczas walki!'
+
+#Wiadomosc wyswietnana graczowi gdy wywolac komende podczas walki
+cant_command: '&a» Nie mozesz uzywac komend podczas walki!'
+
+#Wiadomosc wyswietnana graczowi gdy probuje otworzyc skrzynie podczas walki
+cant_open: '&a» Nie mozesz otwierac skrzyn podczas walki!'
